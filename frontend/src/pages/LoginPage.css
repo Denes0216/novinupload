@@ -1,0 +1,50 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: bisque;
+    background-image: url("/login-background.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.login-content h2 {
+    color: white;
+    letter-spacing: 5px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.login-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-content input {
+    border: none;
+    padding: 5%;
+    border-radius: 25px;
+    outline: none;
+}
+
+.login-container p {
+    color: white;
+}
+
+.login-content input:focus {
+    box-shadow: inset 0 0 0 2px #0a0a0a;
+}
+
+.login-content {
+    border: 1px solid black;
+    padding: 5%;
+    border-radius: 25px;
+    box-shadow: 5px 5px;
+    backdrop-filter: blur(8px);
+    z-index: 1;
+}
